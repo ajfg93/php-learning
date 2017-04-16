@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Fuck Dick</title>
-</head>
-<body>
 
-	<nav>
-		<ul>
-			<li><a href="/about.php">About us</a></li>
-			<li><a href="/contact.php">Contact us</a></li>
-		</ul>
-	</nav>
+	<?php require 'view/partials/head.php'; ?>
+	
 	<ul>
 		<?php foreach ($re_tasks as $task) :?>
 			<li>
-
+				
 			<?php if ($task->completed) : ?>
 				<strike><?= $task->description ?></strike>
 			<?php else: ?>
@@ -24,5 +14,5 @@
 			</li>
 		<?php endforeach; ?>
 	</ul>
-</body>
-</html>
+
+	<?php require 'view/partials/footer.php'; ?>

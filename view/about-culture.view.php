@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Document</title>
-</head>
-<body>
+	<?php require 'view/partials/head.php'; ?>
+
 
 	<h1>About Culture</h1>
 
-</body>
-</html>
+	<?php require 'view/partials/footer.php'; ?>
