@@ -13,4 +13,6 @@ $routes->define([
 
 	'404' => 'controller/404.php',
 
+	'name' => 'controller/name.php',
+
 ]);
