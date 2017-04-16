@@ -5,7 +5,6 @@ require 'core/function.own.php';
 
 require 'core/bootstrap.php';
 
-$params = $_GET;
 
 require Router::load('routes.php')
 
